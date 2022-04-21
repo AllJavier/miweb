@@ -13,7 +13,13 @@
 
  </head>
     <body>
-        <div class="container">
+
+        <?php
+            include_once("conexion.php");
+            Cconexion::ConexionBD();
+        ?>
+    
+    <div class="container">
             <p class="lead">
                 This is a lead paragraph. It stands out from regular paragraphs.
             </p>
